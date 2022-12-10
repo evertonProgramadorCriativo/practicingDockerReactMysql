@@ -1,0 +1,35 @@
+{
+  "name": "crudnodereactmysql",
+  "version": "1.0.0",
+  "description": "Crud Praticing Docker ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertonProgramadorCriativo/practicingDockerReactMysql.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api",
+    "docker"
+  ],
+  "author": "Everton Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evertonProgramadorCriativo/practicingDockerReactMysql/issues"
+  },
+  "homepage": "https://github.com/evertonProgramadorCriativo/practicingDockerReactMysql#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.26.0"
+  }
+}
