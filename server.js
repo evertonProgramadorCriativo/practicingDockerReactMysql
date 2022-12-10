@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // call sysc()
-const db = require("./app/models");
+const db = require("./models");
 db.sequelize.sync();
 
 // simple route
@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome  node application." });
 });
 // crud routes
-require("./app/routes/crud.routes.js")(app);
+require("./routes/crud.routes.js")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
